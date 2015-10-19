@@ -1,0 +1,67 @@
+.main-home {
+background: url(https://portfolio-rails-2633.herokuapp.com/assets/slide01-9d5c1b911de14032bbc4cc7b19514447.jpg) center center;
+background: cover;
+min-height: 600px;
+width: 100%;
+paddinh-top:20px;
+}
+.thumbnail:hover{
+color:#c770e4;
+ text-decoration: none;
+  transition: color .5s;
+}
+.thumbnail-header {
+    background-color: #eaeff4;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+.thumbnail-header-btn {
+    background-color: #fff;
+    border-radius: 20%;
+    float: left;
+    height: 10px;
+    margin: 5px 0 0 5px;
+    width: 10px;
+}
+.thumbnail img {
+    margin-left: 0px;
+    display: block;
+    max-width: 90%;
+    height: auto;
+    }
+.thumbnail {
+padding:50px;
+    border: 0;
+    border-radius: 0;
+    max-height: 240px;
+    padding: 0;
+    overflow: hidden;
+}
+.noi-dung{
+margin: 144px;
+margin-top:80px;
+paddinh-left:100px;
+width: 80%;
+}
+.row
+{
+margin-right: -15px;
+    margin-left: -15px;
+}
+
+.project p {
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    max-height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.project h3, .project p, .about h2, .about p {
+    padding: 0 20px 0;
+}
+p {
+    margin: 0 0 10px;
+}
